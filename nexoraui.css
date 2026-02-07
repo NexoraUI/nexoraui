@@ -8,16 +8,48 @@
     text-decoration: none;
 }
 
+/* BUTTON */
+
+button{
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* BLACK BUTTON  */
+
 .black-button{
     background-color: black;
     color: white;
-    padding: 5px;
-    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.500);
 }
+
+.black-button:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+/* WHITE BUTTON  */
 
 .white-button{
     background-color: white;
     color: black;
+    border: 1px solid rgba(0, 0, 0, 0.500);
+}
+
+.white-button:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+/* INPUT */
+input{
     padding: 5px;
+    border: 1px solid black;
+    outline: none;
     border-radius: 5px;
+}
+
+input::placeholder{
+    font-weight: 500;
 }
