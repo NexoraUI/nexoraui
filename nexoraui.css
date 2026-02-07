@@ -8,9 +8,16 @@
     text-decoration: none;
 }
 
-button{
+.black-button{
     background-color: black;
     color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.white-button{
+    background-color: white;
+    color: black;
     padding: 5px;
     border-radius: 5px;
 }
